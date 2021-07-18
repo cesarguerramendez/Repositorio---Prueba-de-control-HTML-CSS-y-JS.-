@@ -1,0 +1,30 @@
+#provincias :last-child {
+   background-color: rgb(0,0,255);
+ }
+ 
+ ul :nth-of-type(even) {
+   text-decoration: underline green;
+ }
+ 
+ ul {  
+   display: flex;
+   flex-direction: row;
+ }
+ 
+ li {
+   margin-left: 10px;
+ }
+ 
+ li:after{
+   content: "😀";
+ }
+ 
+ li:lang(en){
+   font-size: 200%;
+   text-transform: Uppercase;
+ }
+ 
+ #provincias :not( :nth-child(2)){
+  list-style-type: upper-roman;
+  
+ }

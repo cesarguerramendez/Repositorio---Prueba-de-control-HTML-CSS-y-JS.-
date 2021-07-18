@@ -1,0 +1,32 @@
+body {
+   box-sizing: border box;
+     max-width: 800px;
+     min-width: 400px;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     flex-direction: row;
+            }
+            
+   #name, #email {  
+     border: solid red;
+   }
+   
+   fieldset {
+     background-color: darkgrey;
+     padding: 1rem;
+     
+   }
+   fieldset:hover {
+     background-color: lightgrey;
+   }
+   
+   fieldset:nth-of-type(odd) {
+     border-bottom: 5px solid black;
+   }
+   
+   button{
+     background-color: black;
+     color: white;
+     border: none;
+   }

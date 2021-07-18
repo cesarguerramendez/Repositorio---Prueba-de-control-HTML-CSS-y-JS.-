@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" initial-scale=1.0" initial-scale=1.0">
+   <title>Ejercicio CSS 2</title>
+  <link rel="stylesheet" href="./style.css">
+<body>
+   <form action="index.html">
+     <fieldset>
+       <legend>USUARIO</legend>
+       <label for="name">Nombre</label>
+       <input type="text" name="name" id="name" autofocus required/>
+       <br>
+       <label for="email">Email</label>
+       <input type="email" name="email" id="email"required/>
+       <br>
+       <label for="url">URL</label>
+       <input type="text" name="url" id="url" placeholder="Escribe la URL de tu página web personal"/>
+     </fieldset>
+     <br>
+       
+     <fieldset>
+       <legend>FECHA Y HORA</legend>
+       <label for="date">Fecha:</label>
+       <input type="date" id="date" name="date" value="2021-01-01"/>
+        <br>
+       <label for="time">Tiempo:</label>
+       <input type="time" name="time" id="time" value="T19:30"/>
+       <br>
+        <label for="datetime-local">Fecha y hora:</label>
+       <input type="datetime-local" name="datetime" id="datetime" value="2021-01-01T19:30"/>
+       <br> 
+       <label for="month">Mes:</label>
+       <input type="month" id="month" name="month" value="2021-01"/>
+       <br>
+       <label for="week">Semana:</label>
+       <input type="week" id="week" name="week" value="2021-W01"/>
+     </fieldset>
+     <br>
+       
+     <fieldset>
+       <legend>OTROS</legend>
+        <label for="num">Número:</label>
+       <input type="number" id="num" name="num" min="-10" max="10"/>
+       <br>
+        <label for="tel">Teléfono:</label>
+       <input type="tel" id="tel" name="tel" value="666666666" disabled />
+      <br>
+        <label for="search">Buscar:</label>
+       <input type="search" id="search" name="search" value="Mi búsqueda..." disabled/>
+     <br>
+        <label for="color">Color favorito:</label>
+       <input type="color" id="color" name="color" />
+
+     </fieldset>
+   
+        <br>
+       <button onclick="getValue()"> Enviar </button>
+   </form>
+</body>
+
+</html>
